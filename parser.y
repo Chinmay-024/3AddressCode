@@ -294,7 +294,7 @@ exitLoop            :   EXITLOOP
 skip                :   SKIP
 id                  :   ID indxListO                {
                                                         string c = $<code_str>1;
-                                                        c+=$2->code->code;
+                                                        // c+=$2->code->code;
                                                         Code* curr = new Code();
                                                         curr->append(c);
 
