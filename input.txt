@@ -1,0 +1,5 @@
+global
+	if i<10:
+		i:=i+1
+	end
+end
